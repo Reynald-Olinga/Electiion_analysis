@@ -15,8 +15,8 @@ from utils.chargement_donnees import charger_indicateurs_quotidiens, charger_ale
 
 st.set_page_config(page_title="Veille post-électorale Cameroun", layout="wide", page_icon="🇨🇲")
 
-st.title("🇨🇲 Système d'aide à la décision — Crises post-électorales")
-st.caption("Analyse en temps réel des sentiments et thématiques numériques — élection présidentielle 2025")
+st.title("🇨🇲 Système d'aide à la décision : Crises post-électorales")
+st.caption("Analyse en temps réel des sentiments et thématiques numériques : élection présidentielle 2025")
 
 # ------------------------------------------------------------------------------
 # CHARGEMENT DES DONNÉES
@@ -76,7 +76,7 @@ elif ligne_alerte_du_jour["regle_combinee_2_mobilisation_polarisation"]:
     # On utilise donc st.error (le même niveau visuel que ci-dessus), pas
     # st.warning, pour rester cohérent avec le journal et la page Alertes.
     st.error(
-        "🟣 **ALERTE CRITIQUE — Mobilisation + Polarisation** \n\n"
+        "🟣 **ALERTE CRITIQUE : Mobilisation + Polarisation** \n\n"
         f"Aujourd'hui ({dernier_jour.strftime('%d/%m/%Y')}), des appels à l'action "
         f"collective (Mobilisation : {ligne_du_jour['Mobilisation']:.0f}/100) et un "
         f"public très divisé (Polarisation : {ligne_du_jour['Polarisation']:.0f}/100) "
