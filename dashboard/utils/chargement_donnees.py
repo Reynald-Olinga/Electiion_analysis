@@ -35,9 +35,10 @@ import streamlit as st
 from pathlib import Path
 
 # Ce fichier se trouve dans dashboard/utils/chargement_donnees.py
-# .parent       -> dashboard/utils
-# .parent.parent -> dashboard/
-BASE_DIR = Path(__file__).resolve().parent.parent
+# .parent              -> dashboard/utils
+# .parent.parent       -> dashboard/
+# .parent.parent.parent -> PLATEFORME_MEMOIRE/ (racine du projet)
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 CHEMIN_TABLEAUX = BASE_DIR / "outputs" / "tables"
 CHEMIN_DATA = BASE_DIR / "data"
