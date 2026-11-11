@@ -1,100 +1,100 @@
 ,ALERTE_GLOBALE,Score_Risque_Global,causes_alerte
-2025-07-14,Rouge,34.07239219021277,ITR=Rouge
-2025-07-16,Orange,31.168207658124413,ITE=Orange
-2025-07-17,Rouge,31.883946504101804,ITE=Rouge
-2025-07-18,Rouge,35.17950126505018,ITE=Rouge
-2025-07-22,Orange,29.403620628579603,ITR=Orange
-2025-07-23,Orange,30.101090186209795,ITR=Orange
-2025-07-24,Critique,30.45514088715119,ITR=Orange | Règle combinée: Mobilisation + Polarisation
-2025-07-25,Orange,23.01896037045288,ITR=Orange
-2025-07-26,Orange,21.8480777410694,ITR=Orange
-2025-07-31,Rouge,40.16811325283623,ITE=Rouge | Score_Risque_Global=Orange
-2025-08-01,Rouge,35.69879413373117,ITE=Rouge
-2025-08-02,Orange,26.34478538655972,ITE=Orange
-2025-08-05,Orange,37.389592017704025,ITE=Orange | Score_Risque_Global=Orange
-2025-08-06,Orange,36.117684640123336,ITE=Orange | Score_Risque_Global=Orange
-2025-08-07,Rouge,34.979123322956866,ITE=Rouge
-2025-08-08,Orange,34.429806791003806,ITE=Orange
-2025-08-15,Critique,40.42367095189395,ITR=Orange | Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
-2025-08-16,Critique,41.4016510985501,ITR=Orange | Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
-2025-08-19,Orange,26.05141131573627,ITE=Orange
-2025-08-20,Orange,30.88532829374516,ITE=Orange
-2025-08-22,Rouge,21.35109864405716,ITR=Rouge
-2025-08-23,Orange,21.93441063546957,ITR=Orange
-2025-08-24,Orange,26.48233196464042,ITR=Orange
-2025-08-25,Critique,32.5740047929915,ITE=Orange | ITR=Orange | Règle combinée: Risque thématique + Tension émotionnelle
-2025-08-26,Orange,36.58933032957455,ITE=Orange | Score_Risque_Global=Orange
-2025-08-27,Rouge,30.45331802038018,ITE=Rouge
-2025-08-28,Orange,19.586256505005007,ITE=Orange
-2025-08-29,Orange,19.27833169749622,ITE=Orange
-2025-08-30,Critique,39.44126572683959,ITE=Rouge | ITR=Rouge | Score_Risque_Global=Orange | Règle combinée: Risque thématique + Tension émotionnelle
-2025-08-31,Critique,38.64326869366969,ITE=Orange | ITR=Rouge | Score_Risque_Global=Orange | Règle combinée: Risque thématique + Tension émotionnelle
-2025-09-01,Rouge,35.833059547891004,ITR=Rouge
-2025-09-02,Orange,23.76724073942457,ITR=Orange
-2025-09-06,Rouge,27.627404175522383,ITR=Rouge
-2025-09-07,Rouge,38.643530358316944,ITR=Rouge | Score_Risque_Global=Orange
-2025-09-08,Rouge,35.88990736998637,ITR=Rouge
-2025-09-09,Rouge,33.10427501400307,ITR=Rouge
-2025-09-11,Orange,15.349544296138529,ITR=Orange
-2025-09-17,Orange,27.26679844669393,ITE=Orange
-2025-09-18,Rouge,34.317683211226054,ITE=Rouge
-2025-09-19,Rouge,37.90619723375955,ITE=Rouge | Score_Risque_Global=Orange
-2025-09-20,Rouge,41.47353894429117,ITE=Orange | Score_Risque_Global=Rouge
-2025-09-21,Orange,38.63917995002758,ITR=Orange | Score_Risque_Global=Orange
-2025-09-22,Orange,32.024982175889505,ITR=Orange
-2025-09-23,Orange,21.68635122300444,ITR=Orange
-2025-09-28,Orange,30.471905342140275,ITE=Orange
-2025-09-29,Rouge,39.49129296104311,ITE=Rouge | Score_Risque_Global=Orange
-2025-09-30,Rouge,45.47992152163236,ITE=Rouge | Score_Risque_Global=Rouge
-2025-10-01,Rouge,43.62583869341668,ITE=Rouge | Score_Risque_Global=Rouge
-2025-10-02,Rouge,33.14191990219317,ITE=Rouge
-2025-10-13,Rouge,41.56377237692634,Score_Risque_Global=Rouge
-2025-10-14,Rouge,47.38913777119023,ITE=Orange | Score_Risque_Global=Rouge
-2025-10-15,Rouge,50.12338362696925,ITE=Orange | Score_Risque_Global=Rouge
-2025-10-16,Orange,37.61327605091318,ITE=Orange | Score_Risque_Global=Orange
-2025-10-24,Critique,35.661789815767285,Règle combinée: Mobilisation + Polarisation
-2025-10-25,Critique,35.37361611082633,Règle combinée: Mobilisation + Polarisation
-2025-10-26,Critique,37.91539834585911,Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
-2025-10-27,Orange,36.50779498221504,Score_Risque_Global=Orange
-2025-10-28,Orange,36.22789597671731,Score_Risque_Global=Orange
-2025-10-30,Orange,38.96740757354217,Score_Risque_Global=Orange
-2025-10-31,Orange,40.00153686308091,Score_Risque_Global=Orange
-2025-11-01,Rouge,42.90726853282065,ITE=Orange | Score_Risque_Global=Rouge
-2025-11-02,Rouge,43.66807537698423,ITE=Rouge | Score_Risque_Global=Rouge
-2025-11-03,Rouge,46.44613998809355,ITE=Rouge | Score_Risque_Global=Rouge
-2025-11-04,Critique,44.97707562325581,ITE=Orange | Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
-2025-11-05,Critique,43.46147939708659,ITR=Orange | Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
-2025-11-06,Critique,40.1833222656937,ITR=Orange | Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
-2025-11-07,Critique,38.17228651618024,ITR=Orange | Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
-2025-11-08,Orange,36.10708457317859,ITR=Orange | Score_Risque_Global=Orange
-2025-11-19,Orange,29.091491894519304,ITR=Orange
-2025-11-20,Orange,31.850937365219483,ITR=Orange
-2025-11-22,Orange,37.757359663855695,Score_Risque_Global=Orange
-2025-11-23,Orange,37.77605373288134,Score_Risque_Global=Orange
-2025-11-24,Rouge,41.98955821665737,ITR=Rouge | Score_Risque_Global=Rouge
-2025-11-25,Orange,37.22513075996441,ITR=Orange | Score_Risque_Global=Orange
-2025-11-26,Rouge,41.56859906163688,ITR=Orange | Score_Risque_Global=Rouge
-2025-11-27,Critique,42.11688261393549,Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
-2025-11-28,Critique,40.59332762449153,Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
-2025-11-29,Orange,34.52809869039212,ITR=Orange
-2025-12-03,Critique,33.56915005815288,Règle combinée: Mobilisation + Polarisation
-2025-12-04,Orange,26.321937783197452,ITR=Orange
-2025-12-05,Orange,26.706882778240708,ITR=Orange
-2025-12-10,Orange,21.92226721621603,ITE=Orange
-2025-12-11,Orange,20.780347123815247,ITE=Orange
-2025-12-12,Critique,32.41407348140215,ITE=Orange | ITR=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
-2025-12-13,Rouge,25.17217723398048,ITR=Rouge
-2025-12-20,Critique,41.97141704511439,ITE=Rouge | ITR=Rouge | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
-2025-12-21,Critique,51.47500965172431,ITE=Rouge | ITR=Rouge | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle | Règle combinée: Mobilisation + Polarisation
-2025-12-22,Critique,45.3335786855156,ITE=Rouge | ITR=Orange | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
-2025-12-23,Rouge,36.27478871701439,ITE=Rouge | Score_Risque_Global=Orange
-2025-12-24,Orange,25.10820525121652,ITE=Orange
-2025-12-25,Orange,25.821503756215733,ITE=Orange
-2025-12-29,Rouge,18.314066354109155,ITR=Rouge
-2025-12-30,Rouge,20.00558659217877,ITR=Rouge
-2025-12-31,Rouge,26.36268538130992,ITR=Rouge
-2026-01-04,Rouge,30.015583506981432,ITR=Rouge
-2026-01-07,Orange,35.30211210756353,ITE=Orange
-2026-01-08,Orange,36.65148862168438,ITE=Orange | Score_Risque_Global=Orange
-2026-01-09,Critique,42.63137338117176,Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
-2026-01-10,Critique,34.82390712519759,Règle combinée: Mobilisation + Polarisation
+2025-07-15,Rouge,20.3405567137281,ITR=Rouge
+2025-07-16,Critique,31.046509967031696,ITE=Rouge | ITR=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-07-17,Critique,33.386445775096355,ITE=Rouge | ITR=Rouge | Score_Risque_Global=Orange | Règle combinée: Risque thématique + Tension émotionnelle
+2025-07-18,Critique,32.96869862073572,ITE=Rouge | ITR=Orange | Score_Risque_Global=Orange | Règle combinée: Risque thématique + Tension émotionnelle
+2025-07-19,Orange,24.72788038958007,ITR=Orange
+2025-07-31,Rouge,32.10965625159481,ITE=Rouge | Score_Risque_Global=Orange
+2025-08-01,Rouge,29.711128656109903,ITE=Rouge
+2025-08-02,Critique,31.18758355084207,ITE=Orange | ITR=Rouge | Score_Risque_Global=Orange | Règle combinée: Risque thématique + Tension émotionnelle
+2025-08-03,Rouge,24.291205140338164,ITR=Rouge
+2025-08-04,Rouge,31.178950462233946,ITR=Rouge
+2025-08-05,Orange,32.61876561845565,ITE=Orange | Score_Risque_Global=Orange
+2025-08-06,Orange,32.70071909324919,ITE=Orange | Score_Risque_Global=Orange
+2025-08-07,Rouge,31.500343992752555,ITE=Rouge | Score_Risque_Global=Orange
+2025-08-08,Rouge,27.800721082107,ITE=Rouge
+2025-08-09,Orange,25.91276294464237,ITE=Orange
+2025-08-15,Critique,31.61924173603958,Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
+2025-08-16,Critique,29.668315876608865,Règle combinée: Mobilisation + Polarisation
+2025-08-19,Orange,24.577579067231536,ITE=Orange
+2025-08-20,Critique,30.460251336980303,ITE=Orange | ITR=Orange | Règle combinée: Risque thématique + Tension émotionnelle
+2025-08-21,Rouge,31.61187827318401,ITR=Rouge | Score_Risque_Global=Orange
+2025-08-22,Rouge,24.07585996220465,ITR=Rouge
+2025-08-23,Rouge,28.72520481634685,ITR=Rouge
+2025-08-24,Rouge,22.502196596834363,ITR=Rouge
+2025-08-25,Orange,25.65669593224541,ITE=Orange
+2025-08-26,Orange,28.49966044973312,ITE=Orange
+2025-08-27,Rouge,26.68192411720352,ITE=Rouge
+2025-08-28,Orange,23.012887592558545,ITE=Orange
+2025-08-29,Orange,20.240778428520688,ITE=Orange
+2025-08-30,Orange,29.643780893663564,ITE=Orange
+2025-08-31,Orange,28.692175074108597,ITE=Orange
+2025-09-07,Orange,30.33921862717308,ITR=Orange
+2025-09-08,Orange,29.40666191762102,ITR=Orange
+2025-09-09,Orange,27.188214756872156,ITR=Orange
+2025-09-14,Orange,24.81732680900038,ITR=Orange
+2025-09-15,Orange,24.72571708325837,ITR=Orange
+2025-09-17,Orange,25.947155799482395,ITE=Orange
+2025-09-18,Rouge,31.214189574435903,ITE=Rouge | Score_Risque_Global=Orange
+2025-09-19,Orange,34.323272444066674,ITE=Orange | Score_Risque_Global=Orange
+2025-09-20,Critique,40.3809902828117,ITE=Orange | ITR=Orange | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-09-21,Rouge,35.073303865573465,Score_Risque_Global=Rouge
+2025-09-22,Orange,28.8087128626814,ITR=Orange
+2025-09-26,Orange,21.028627743762797,ITR=Orange
+2025-09-28,Orange,25.48294384772641,ITE=Orange
+2025-09-29,Rouge,33.00453943383648,ITE=Rouge | Score_Risque_Global=Orange
+2025-09-30,Rouge,40.28801389855897,ITE=Rouge | Score_Risque_Global=Rouge
+2025-10-01,Critique,39.94032415876723,ITE=Rouge | ITR=Orange | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-10-02,Rouge,30.908661800326044,ITE=Rouge
+2025-10-13,Rouge,37.62672293532857,ITE=Orange | Score_Risque_Global=Rouge
+2025-10-14,Rouge,42.18404927923894,ITE=Orange | Score_Risque_Global=Rouge
+2025-10-15,Rouge,44.50583695230334,ITE=Orange | Score_Risque_Global=Rouge
+2025-10-16,Orange,30.995909606886432,ITE=Orange
+2025-10-17,Orange,28.481492533598445,ITE=Orange
+2025-10-25,Critique,29.621633399402977,Règle combinée: Mobilisation + Polarisation
+2025-10-26,Critique,33.70978866766355,Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
+2025-10-27,Orange,33.20906958687809,Score_Risque_Global=Orange
+2025-10-28,Orange,32.71756470446962,Score_Risque_Global=Orange
+2025-10-30,Orange,33.17487512693422,Score_Risque_Global=Orange
+2025-10-31,Orange,34.15829684955739,Score_Risque_Global=Orange
+2025-11-01,Rouge,36.8413367839151,ITE=Orange | Score_Risque_Global=Rouge
+2025-11-02,Rouge,38.18460099007997,ITE=Rouge | Score_Risque_Global=Rouge
+2025-11-03,Rouge,40.76297131798801,ITE=Rouge | Score_Risque_Global=Rouge
+2025-11-04,Critique,40.304264755983766,ITE=Orange | ITR=Orange | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle | Règle combinée: Mobilisation + Polarisation
+2025-11-05,Critique,37.12249425006487,Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
+2025-11-06,Critique,34.340110389072045,ITR=Orange | Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
+2025-11-07,Critique,31.140164006574448,Règle combinée: Mobilisation + Polarisation
+2025-11-08,Orange,31.84843366321106,ITR=Orange | Score_Risque_Global=Orange
+2025-11-19,Orange,23.90227561747408,ITR=Orange
+2025-11-21,Orange,27.34036270115204,ITR=Orange
+2025-11-22,Orange,34.00922209696337,Score_Risque_Global=Orange
+2025-11-23,Orange,32.83247181588203,Score_Risque_Global=Orange
+2025-11-26,Orange,32.14826645648994,Score_Risque_Global=Orange
+2025-11-27,Critique,38.46057691149417,ITR=Orange | Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
+2025-11-28,Critique,34.79200989950859,Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
+2025-11-29,Orange,29.2056230863241,ITR=Orange
+2025-12-03,Critique,28.10306521743665,Règle combinée: Mobilisation + Polarisation
+2025-12-04,Rouge,22.74022311669828,ITR=Rouge
+2025-12-05,Orange,22.644869077555978,ITR=Orange
+2025-12-07,Rouge,19.74488730636948,ITR=Rouge
+2025-12-08,Orange,18.30254769056411,ITR=Orange
+2025-12-09,Rouge,18.97243201006844,ITR=Rouge
+2025-12-10,Critique,26.206002458949936,ITE=Orange | ITR=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-12-11,Critique,26.286977874088784,ITE=Orange | ITR=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-12-12,Critique,26.558979076849194,ITE=Orange | ITR=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-12-17,Rouge,34.463262352194484,ITR=Rouge | Score_Risque_Global=Rouge
+2025-12-18,Orange,33.50030142957113,ITR=Orange | Score_Risque_Global=Orange
+2025-12-19,Orange,28.71107665583914,ITR=Orange
+2025-12-20,Rouge,32.01576972203617,ITE=Rouge | Score_Risque_Global=Orange
+2025-12-21,Critique,41.35587934108919,ITE=Rouge | Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
+2025-12-22,Critique,44.37154815603054,ITE=Rouge | ITR=Rouge | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-12-23,Critique,34.92168820829664,ITE=Rouge | ITR=Rouge | Score_Risque_Global=Rouge | Règle combinée: Risque thématique + Tension émotionnelle
+2025-12-24,Orange,19.27573324686145,ITR=Orange
+2025-12-27,Orange,19.560493328047,ITR=Orange
+2025-12-28,Orange,18.1635629532135,ITR=Orange
+2025-12-29,Orange,14.20765632332501,ITR=Orange
+2026-01-07,Orange,31.860995235509204,ITE=Orange | Score_Risque_Global=Orange
+2026-01-08,Orange,30.745535630115214,ITE=Orange
+2026-01-09,Critique,36.08408672246549,Score_Risque_Global=Rouge | Règle combinée: Mobilisation + Polarisation
+2026-01-10,Critique,31.26819127335001,Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation
+2026-01-11,Critique,31.95946667663663,Score_Risque_Global=Orange | Règle combinée: Mobilisation + Polarisation

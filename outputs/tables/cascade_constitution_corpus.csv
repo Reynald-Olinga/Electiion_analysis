@@ -1,0 +1,12 @@
+﻿etape,effectif,nature
+Publications brutes,48138,
+Textes manquants,-628,supprimés
+Publications avec texte,47510,
+Avant le 2025-07-15,-4013,hors période
+Après le 2026-01-15,-5908,hors période
+Dates illisibles,0,hors période
+Publications dans la période d'étude,37589,
+Doublons (texte + auteur + date),-18719,supprimés
+Publications après déduplication,18870,
+Vides après nettoyage,-2750,supprimés
+Corpus analytique final,16120,

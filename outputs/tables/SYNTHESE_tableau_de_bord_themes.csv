@@ -1,6 +1,6 @@
 ,nb_publications,sentiment_moyen,emotion_dominante,tendance_sentiment,tendance_part_theme,tendance_engagement,likes_moyens,commentaires_moyens
-"Tribalisme, régime et tensions régionales (Ouest)",2617,0.024,Joie,-0.00137,0.0346,-6.228,10.3,1.27
-"Solidarité, foi et encouragements au peuple",2026,0.037,Anticipation,0.00163,0.0087,-11.316,30.6,1.49
-Candidats de l'opposition et espoir de changement,2458,0.101,Joie,0.00041,-0.0382,-9.296,20.9,1.4
-"Communauté Bamiléké, famille et problèmes du pays",2125,-0.018,Tristesse,-0.00341,-0.0086,-14.31,27.2,1.47
-"Paul Biya : pouvoir, vie et mort",2446,0.089,Tristesse,-0.00047,0.0036,-9.883,26.1,1.1
+"Tribalisme, régime et tensions régionales (Ouest)",1948,0.05,Anticipation,0.00344,-0.0482,-0.156,7.0,0.7
+"Solidarité, foi et encouragements au peuple",1711,0.028,Joie,0.00017,0.0133,-0.521,5.7,0.72
+Candidats de l'opposition et espoir de changement,1497,0.012,Joie,-0.00682,-0.5827,-0.784,6.3,0.72
+"Communauté Bamiléké, famille et problèmes du pays",1778,-0.046,Tristesse,0.00174,0.0162,-0.306,8.9,0.74
+"Paul Biya : pouvoir, vie et mort",1422,0.059,Joie,-0.00363,0.6014,-0.337,4.6,0.58
