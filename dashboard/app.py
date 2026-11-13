@@ -25,8 +25,30 @@ indicateurs = charger_indicateurs_quotidiens()
 alertes = charger_alertes_quotidiennes()
 journal = charger_journal_alertes()
 
-# On ne prend PAS simplement le dernier jour du calendrier : la fenêtre
-# d'analyse (±90 jours autour du vote, script 08) inclut des jours creux,
+
+def _niveau_alerte_global(ligne):
+    """Même règle que le script 09 (determiner_alerte_globale) : Critique si l'une
+    des deux règles combinées est déclenchée, sinon Rouge, Orange ou Vert selon
+    les alertes simples ITE, ITR et Score de Risque Global."""
+    if ligne["regle_combinee_1_risque_tension"] or ligne["regle_combinee_2_mobilisation_polarisation"]:
+        return "Critique"
+    niveaux = [ligne["alerte_ITE"], ligne["alerte_ITR"], ligne["alerte_Score_Risque_Global"]]
+    if "Rouge" in niveaux:
+        return "Rouge"
+    if "Orange" in niveaux:
+        return "Orange"
+    return "Vert"
+
+
+# Garde-fou : si le CSV d'alertes ne contient pas la colonne ALERTE_GLOBALE
+# (anciennes versions du script 09, qui ne l'écrivaient que dans le journal),
+# on la recalcule ici plutôt que de faire planter la page d'accueil.
+if "ALERTE_GLOBALE" not in alertes.columns:
+    alertes = alertes.copy()
+    alertes["ALERTE_GLOBALE"] = alertes.apply(_niveau_alerte_global, axis=1)
+
+# On ne prend PAS simplement le dernier jour du calendrier : la période
+# d'étude (du 15 juillet 2025 au 15 janvier 2026, script 08) inclut des jours creux,
 # parfois avec 0 publication réelle, ce qui rendrait les indicateurs du jour
 # ininterprétables (ITE à 0 ne veut rien dire s'il n'y a aucune publication
 # ce jour-là). On utilise donc le dernier jour marqué "fiable" par le script
@@ -65,7 +87,7 @@ if ligne_alerte_du_jour["regle_combinee_1_risque_tension"]:
         "sont tous les deux en zone Orange ou Rouge en même temps. "
         "Cela signifie que les publications du jour combinent à la fois une forte "
         "charge émotionnelle négative (colère, peur, dégoût, tristesse) **et** une "
-        "forte présence de thématiques à risque (tribalisme, contestation, pouvoir). "
+        "forte présence de thématiques à risque (tensions communautaires, contestation, pouvoir). "
         "\n\n**Réponse institutionnelle suggérée** : transmission immédiate à la cellule "
         "de veille, vérification des remontées de terrain dans les zones concernées, "
         "préparation d'un message de communication de crise."

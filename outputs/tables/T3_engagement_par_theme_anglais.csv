@@ -1,6 +1,6 @@
 theme_nom,mean,count
-Villes mortes et pétitions (pidgin),70.3,728
-Vote et actualité internationale,38.1,694
-"Biya, élection et pouvoir",17.2,62
-"Discours politique général (honte, ministre)",1.5,656
-Bruit résiduel (textes mal détectés comme anglais),1.5,106
+"Honte, régime et justice (anglais)",70.3,728
+"Villes mortes, vote et changement (pidgin)",38.1,694
+Bruit résiduel (textes français détectés comme anglais),17.2,62
+"Biya, Tchiroma et gouvernement (anglais)",1.5,656
+Bruit résiduel supplémentaire (textes français détectés comme anglais),1.5,106

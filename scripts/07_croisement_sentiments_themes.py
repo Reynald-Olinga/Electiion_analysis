@@ -20,7 +20,7 @@
 # premier "indice de tension thématique" qui préfigure les indicateurs
 # décisionnels de la Phase 9 (ITE, ITR...).
 #
-# On se concentre sur le sous-corpus FRANÇAIS (5 thèmes propres, sans bruit),
+# On se concentre sur le sous-corpus FRANÇAIS (thèmes interprétables, sans bruit),
 # qui est le plus riche et le plus fiable pour ce genre d'analyse fine. Les
 # thèmes anglais/pidgin sont traités plus brièvement en fin de script.
 # ==============================================================================
@@ -61,13 +61,18 @@ df["semaine"] = df["date_publication"].dt.to_period("W").dt.start_time
 
 # On se concentre sur les publications françaises qui ont un thème identifié
 # (on exclut "non déterminé", qui correspond aux langues non prises en charge)
-themes_francais = [
-    "Tribalisme, régime et tensions régionales (Ouest)",
-    "Solidarité, foi et encouragements au peuple",
-    "Candidats de l'opposition et espoir de changement",
-    "Communauté Bamiléké, famille et problèmes du pays",
-    "Paul Biya : pouvoir, vie et mort",
-]
+# Les noms des thèmes ne sont plus écrits ici : ils sont LUS dans le fichier
+# produit par le script 06 (libelles_themes.csv), seule source des noms.
+chemin_libelles = f"{dossier_tableaux}/libelles_themes.csv"
+if not os.path.exists(chemin_libelles):
+    raise SystemExit(f"Fichier introuvable : {chemin_libelles}. Exécuter d'abord le script 06.")
+libelles_themes = pd.read_csv(chemin_libelles)
+themes_francais = libelles_themes.loc[(libelles_themes["langue"] == "fr") & libelles_themes["interpretable"], "theme_nom"].tolist()
+themes_anglais = libelles_themes.loc[(libelles_themes["langue"] == "en") & libelles_themes["interpretable"], "theme_nom"].tolist()
+themes_absents = [t for t in themes_francais if t not in set(df["theme_nom"].unique())]
+if themes_absents:
+    raise SystemExit("Noms de thèmes absents du corpus : " + " | ".join(themes_absents) + ". Relancer le script 06.")
+print(f"Thèmes français retenus : {len(themes_francais)} ; thèmes anglais/pidgin retenus : {len(themes_anglais)}")
 df_themes = df[df["theme_nom"].isin(themes_francais)].copy()
 print(f"{len(df_themes)} publications avec un thème français identifié.")
 
@@ -399,11 +404,6 @@ print(" affinera ce principe pour construire les indicateurs officiels du mémoi
 
 print("\n--- Complément : thèmes anglais/pidgin ---")
 
-themes_anglais = [
-    "Vote et actualité internationale", "Villes mortes et pétitions (pidgin)",
-    "Discours politique général (honte, ministre)", "Biya, élection et pouvoir",
-    "Tchiroma, peur et crise anglophone",
-]
 df_themes_en = df[df["theme_nom"].isin(themes_anglais)].copy()
 
 synthese_en = pd.DataFrame({

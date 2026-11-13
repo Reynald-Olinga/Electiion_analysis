@@ -225,11 +225,12 @@ print("Enregistré : D1 (tableau + graphique).")
 print("\n--- E : libellés interprétatifs proposés pour les thèmes ---")
 
 libelles_themes_fr = {
-    0: "Tribalisme, régime et tensions régionales (Ouest)",
-    1: "Solidarité, foi et encouragements au peuple",
-    2: "Candidats de l'opposition et espoir de changement",
-    3: "Communauté Bamiléké, famille et problèmes du pays",
-    4: "Paul Biya : pouvoir, vie et mort",
+    0: "Cabral Libii, candidats et résultats",
+    1: "Issa Tchiroma, victoire et villes mortes",
+    2: "Opposition, Kamto et RDPC",
+    3: "Ethnies, communauté bamiléké et famille",
+    4: "Cameroun, Afrique, diaspora et foi",
+    5: "Paul Biya : régime, pouvoir et vie",
 }
 for i in range(meilleur_k_fr):
     if i not in libelles_themes_fr:
@@ -237,20 +238,33 @@ for i in range(meilleur_k_fr):
 
 for i, nom in libelles_themes_fr.items():
     if i < meilleur_k_fr:
-        print(f"  Thème {i} -> {nom}")
+        # on affiche aussi les 6 premiers mots-clés : contrôle visuel que le NOM
+        # correspond bien au CONTENU du thème à chaque exécution
+        print(f"  Thème {i} -> {nom}   [{', '.join(mots_cles_par_theme_fr[i][:6])}]")
 
 libelles_themes_en = {
-    0: "Vote et actualité internationale",
-    1: "Villes mortes et pétitions (pidgin)",
-    2: "Discours politique général (honte, ministre)",
-    3: "Biya, élection et pouvoir",
-    4: "Bruit résiduel (textes mal détectés comme anglais)",
-    5: "Bruit résiduel supplémentaire (mélange linguistique)",
-    6: "Tchiroma, peur et crise anglophone",
+    0: "Villes mortes, vote et changement (pidgin)",
+    1: "Honte, régime et justice (anglais)",
+    2: "Biya, Tchiroma et gouvernement (anglais)",
+    3: "Bruit résiduel (textes français détectés comme anglais)",
+    4: "Bruit résiduel supplémentaire (textes français détectés comme anglais)",
 }
 for i in range(meilleur_k_en):
     if i not in libelles_themes_en:
         libelles_themes_en[i] = f"Thème {i} (à nommer manuellement, voir mots-clés)"
+
+# SOURCE UNIQUE DES NOMS DE THÈMES : on sauvegarde les noms ci-dessus dans un
+# fichier. Le script 07 les LIT dans ce fichier : les noms ne sont donc définis
+# qu'à UN seul endroit (ici). Un thème dont le nom commence par "Bruit résiduel"
+# ou "Thème " est considéré comme non interprétable et exclu des croisements.
+lignes_libelles = []
+for langue, k, dico in [("fr", meilleur_k_fr, libelles_themes_fr), ("en", meilleur_k_en, libelles_themes_en)]:
+    for i in range(k):
+        nom = dico[i]
+        interpretable = not (nom.startswith("Bruit résiduel") or nom.startswith("Thème "))
+        lignes_libelles.append({"langue": langue, "theme_id": i, "theme_nom": nom, "interpretable": interpretable})
+pd.DataFrame(lignes_libelles).to_csv(f"{dossier_tableaux}/libelles_themes.csv", index=False, encoding="utf-8-sig")
+print("Enregistré : libelles_themes.csv (noms des thèmes, lus ensuite par le script 07)")
 
 # Une couleur FIXE par thème français, réutilisée dans TOUS les graphiques
 # suivants du script, pour que le même thème soit toujours reconnaissable à

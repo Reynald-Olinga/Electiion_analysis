@@ -1,6 +1,7 @@
 ,nb_publications,sentiment_moyen,emotion_dominante,tendance_sentiment,tendance_part_theme,tendance_engagement,likes_moyens,commentaires_moyens
-"Tribalisme, régime et tensions régionales (Ouest)",1948,0.05,Anticipation,0.00344,-0.0482,-0.156,7.0,0.7
-"Solidarité, foi et encouragements au peuple",1711,0.028,Joie,0.00017,0.0133,-0.521,5.7,0.72
-Candidats de l'opposition et espoir de changement,1497,0.012,Joie,-0.00682,-0.5827,-0.784,6.3,0.72
-"Communauté Bamiléké, famille et problèmes du pays",1778,-0.046,Tristesse,0.00174,0.0162,-0.306,8.9,0.74
-"Paul Biya : pouvoir, vie et mort",1422,0.059,Joie,-0.00363,0.6014,-0.337,4.6,0.58
+"Cabral Libii, candidats et résultats",1948,0.05,Anticipation,0.00344,-0.048,-0.156,7.0,0.7
+"Issa Tchiroma, victoire et villes mortes",1711,0.028,Joie,0.00017,0.0147,-0.521,5.7,0.72
+"Opposition, Kamto et RDPC",1497,0.012,Joie,-0.00682,-0.5213,-0.784,6.3,0.72
+"Ethnies, communauté bamiléké et famille",1778,-0.046,Tristesse,0.00174,0.0157,-0.306,8.9,0.74
+"Cameroun, Afrique, diaspora et foi",1422,0.059,Joie,-0.00363,0.5094,-0.337,4.6,0.58
+"Paul Biya : régime, pouvoir et vie",1556,0.107,Joie,0.00289,0.0295,-0.477,9.6,0.64

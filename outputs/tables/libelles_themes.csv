@@ -1,0 +1,12 @@
+﻿langue,theme_id,theme_nom,interpretable
+fr,0,"Cabral Libii, candidats et résultats",True
+fr,1,"Issa Tchiroma, victoire et villes mortes",True
+fr,2,"Opposition, Kamto et RDPC",True
+fr,3,"Ethnies, communauté bamiléké et famille",True
+fr,4,"Cameroun, Afrique, diaspora et foi",True
+fr,5,"Paul Biya : régime, pouvoir et vie",True
+en,0,"Villes mortes, vote et changement (pidgin)",True
+en,1,"Honte, régime et justice (anglais)",True
+en,2,"Biya, Tchiroma et gouvernement (anglais)",True
+en,3,Bruit résiduel (textes français détectés comme anglais),False
+en,4,Bruit résiduel supplémentaire (textes français détectés comme anglais),False

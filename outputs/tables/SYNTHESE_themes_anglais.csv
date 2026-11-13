@@ -1,6 +1,4 @@
 theme_nom,nb_publications,sentiment_moyen,likes_moyens,commentaires_moyens
-Vote et actualité internationale,694.0,-0.021,38.1,1.67
-Villes mortes et pétitions (pidgin),728.0,0.028,70.3,2.15
-"Discours politique général (honte, ministre)",656.0,0.065,1.5,0.36
-"Biya, élection et pouvoir",62.0,0.084,17.2,1.23
-"Tchiroma, peur et crise anglophone",,,,
+"Villes mortes, vote et changement (pidgin)",694,-0.021,38.1,1.67
+"Honte, régime et justice (anglais)",728,0.028,70.3,2.15
+"Biya, Tchiroma et gouvernement (anglais)",656,0.065,1.5,0.36
