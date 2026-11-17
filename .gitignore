@@ -1,0 +1,15 @@
+﻿# Environnement virtuel Python
+venv/
+.venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+
+# Variables et informations confidentielles
+.env
+.streamlit/secrets.toml
+
+# Fichiers système
+.DS_Store
+Thumbs.db
